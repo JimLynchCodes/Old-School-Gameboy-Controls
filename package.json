@@ -1,0 +1,34 @@
+{
+  "name": "derp-phas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start":       "budo src/main.js:bundle.js --live -- -d -e src/main.js -t [babelify --comments false --presets env]",
+    "prebuild":    "mkdirp build",
+    "build":       "npm run build:js && npm run build:css && npm run build:html && npm run copy:all",
+    "build:js":    "browserify -d -e src/main.js -t [babelify --comments false --presets env] | uglifyjs -cm > build/bundle.min.js",
+    "build:css":   "cleancss css/main.css -o build/main.min.css",
+    "build:html":  "htmlprocessor index.html -o build/index.html",
+    "copy:all":    "npm run copy:assets && npm run copy:phaser",
+    "copy:assets": "ncp assets build/assets/",
+    "copy:phaser": "ncp node_modules/phaser-ce/build/phaser.min.js build/phaser.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser-ce": "^2.9.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babelify": "^8.0.0",
+    "babel-preset-env": "^1.6.1",
+    "browserify": "^14.5.0",
+    "budo": "^10.0.4",
+    "clean-css-cli": "^4.1.10",
+    "htmlprocessor": "^0.2.6",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "uglify-js": "^3.1.6"
+  }
+}
