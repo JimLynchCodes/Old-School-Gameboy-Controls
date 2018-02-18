@@ -82,7 +82,7 @@ Then in your phaser code listen for the arrow keys as usual.
 
 
 
-The images are svg and should scale to any portrait sreen without degrading quality. 
+The images are svg and should scale based on the viewport width to any portrait-layout sreen without degrading quality. 
 
 
 Feel free free to open issues if you have any questions or suggestions!
