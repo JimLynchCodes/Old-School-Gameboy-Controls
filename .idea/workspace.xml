@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7703154-59c6-4577-8f43-effeb6236c60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" afterPath="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" afterPath="$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/build/index.html" afterPath="$PROJECT_DIR$/sample-phaser-project/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/out/src/index.html" afterPath="$PROJECT_DIR$/sample-phaser-project/out/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +35,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameboy-controls.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js">
+      <file leaf-file-name="gameboy-controls.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
               <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
@@ -74,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="414" lean-forward="false" selection-start-line="0" selection-start-column="414" selection-end-line="0" selection-end-column="414" />
+              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -89,16 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gameboy-controls.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,11 +150,11 @@
         <option value="$PROJECT_DIR$/sample-phaser-project/index.html" />
         <option value="$PROJECT_DIR$/sample-phaser-project/src/gameboy-controls.js" />
         <option value="$PROJECT_DIR$/sample-phaser-project/src/index.html" />
-        <option value="$PROJECT_DIR$/sample-phaser-project/build/index.html" />
         <option value="$PROJECT_DIR$/sample-phaser-project/.gitignore" />
         <option value="$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" />
+        <option value="$PROJECT_DIR$/sample-phaser-project/build/index.html" />
       </list>
     </option>
   </component>
@@ -242,6 +233,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Old-School-Gameboy-Controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Old-School-Gameboy-Controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample-phaser-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -265,11 +274,11 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample-phaser-project/build" />
       <recent name="$PROJECT_DIR$/sample-phaser-project" />
       <recent name="$PROJECT_DIR$/sample-phaser-project/src" />
       <recent name="$PROJECT_DIR$/sample-phaser-project/out/dist" />
       <recent name="$PROJECT_DIR$/sample-phaser-project/assets" />
-      <recent name="$PROJECT_DIR$/sample-phaser-project/game-boy-controls" />
     </key>
   </component>
   <component name="RunManager">
@@ -353,12 +362,12 @@
       <updated>1514312321944</updated>
       <workItem from="1514312327649" duration="8323000" />
       <workItem from="1518916293358" duration="7849000" />
-      <workItem from="1518928255623" duration="3353000" />
+      <workItem from="1518928255623" duration="3743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19525000" />
+    <option name="totallyTimeSpent" value="19915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="222" y="23" width="1421" height="985" extended-state="0" />
@@ -545,14 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="414" lean-forward="false" selection-start-line="0" selection-start-column="414" selection-end-line="0" selection-end-column="414" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
@@ -577,10 +578,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js">
+    <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/gameboy-controls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-phaser-project/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
           <folding />
         </state>
       </provider>
