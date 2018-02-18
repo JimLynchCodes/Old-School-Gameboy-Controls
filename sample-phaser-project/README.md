@@ -1,5 +1,77 @@
-# Phaser + ES6 + Webpack.
-#### A bootstrap project to create games with Phaser + ES6 + Webpack.
+
+
+
+# This project is a proof-of-concept for a library that will work with phaser games to simulate an old-school gameboy 
+controller, and provide you with these inputs in your phaser game as if they were normal keypresses.
+
+
+Currently, I only have the "up arrow" button on the page. This is a normal div and lives outside of the phaser game.
+The whole point of this is so that the gameboy controls can have a window (where the gameboy screen would be) that the user
+can just drop their main div in which phaser gets rendered and code as usual. This way the creator can simply build
+the game listening for arrow key press events and easily have a way to let the user trigger those keypress events on 
+mobile devices by simply pressing the gameboy buttons.
+
+
+Checkout the live demo here: https://jimtheman.github.io/Old-School-Gameboy-Controls/
+
+_Note: This projet is still a work-in-progress._
+
+
+#### How To Use Gameboy Controls in Another Project
+
+I'm imagining a tax where you can just wrap your main root game tag named "content" or "app" or something and wrap that in
+another div marked as gameboy-controls. Then you just add the gameboy-controls (or possibly it happens behind the scenes).
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Example Of Simple Index.Html With Game Controls/title>
+</head>
+
+<body>
+    <script src="./gameboy-controls.js"></script>
+
+    <div id="gameboy-controls">
+        <div id="content"></div>
+    </div>
+
+<script type="text/javascript" src="./dist/vendor.bundle.js"></script><script type="text/javascript" src="./dist/bundle.js"></script></body>
+
+</html>
+
+```
+
+
+Then in your phaser code listen for the arrow keys as usual.
+
+```
+      this.game.input.keyboard.onDownCallback = (e) => {
+          console.log('Phaser game heard key DOWN event for ' + e.key +
+             " keycode: " + e.keyCode + ", charCode: " + e.charCode);
+
+          
+          if (e.keyCode === 38) {       // up arrow key
+            this.mushroom.x = Math.floor(Math.random() * this.world.bounds.width);
+            this.mushroom.y = Math.floor(Math.random() * this.world.bounds.height);
+          }
+
+      }
+```
+
+
+
+The images are svg and should scale to any portrait sreen without degrading quality. 
+
+
+
+
+$ Contributing To Old-School Gameboy Controls
+
+
+#### This sample project was scaffolded with Phaser + ES6 + Webpack.
 
 ![Phaser+ES6+Webpack](https://raw.githubusercontent.com/lean/phaser-es6-webpack/master/assets/images/phaser-es6-webpack.jpg)
 
@@ -13,34 +85,27 @@
 - Webpack ready
 - WebFont Loader
 
-## Typescript 
-If you need typescript support checkout the ```typescript``` branch. Thanks to @MatsMaker
 
 # Setup
-You'll need to install a few things before you have a working copy of the project.
 
-## 1. Clone this repo:
-
-Navigate into your workspace directory.
-
-Run:
-
-```git clone https://github.com/lean/phaser-es6-webpack.git```
-
-## 2. Install node.js and npm:
+## 1. Install node.js and npm:
 
 https://nodejs.org/en/
 
 
-## 3. Install dependencies (optionally you can install [yarn](https://yarnpkg.com/)):
+## 2. Navigate into the sample-phaser project folder
 
-Navigate to the cloned repo's directory.
+`cd sample-phaser-project`
+
+
+## 3. Install dependencies (optionally you can install [yarn](https://yarnpkg.com/)):
 
 Run:
 
 ```npm install``` 
 
 or if you chose yarn, just run ```yarn```
+
 
 ## 4. Run the development server:
 
@@ -58,6 +123,10 @@ To run the game, open your browser and enter http://localhost:3000 into the addr
 Run:
 
 ```npm run deploy```
+
+
+_Current build is sort of hackish. You may need to go into build/index.html and change game-controls path to "./gameboy-controls.js"_
+
 
 This will optimize and minimize the compiled bundle.
 

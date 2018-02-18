@@ -30,8 +30,10 @@ export default class extends Phaser.State {
           console.log('Phaser game heard key DOWN event for ' + e.key +
              " keycode: " + e.keyCode + ", charCode: " + e.charCode);
 
-        this.mushroom.x = Math.floor(Math.random() * this.world.bounds.width);
-        this.mushroom.y = Math.floor(Math.random() * this.world.bounds.height);
+          if (e.keyCode === 38) {
+            this.mushroom.x = Math.floor(Math.random() * this.world.bounds.width);
+            this.mushroom.y = Math.floor(Math.random() * this.world.bounds.height);
+          }
 
       }
 
