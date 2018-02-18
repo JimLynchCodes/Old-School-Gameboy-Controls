@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7703154-59c6-4577-8f43-effeb6236c60" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sample-phaser-project/up-arrow.svg" afterPath="$PROJECT_DIR$/sample-phaser-project/assets/up-arrow.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" afterPath="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/.gitignore" afterPath="$PROJECT_DIR$/sample-phaser-project/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/sample-phaser-project/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -422,12 +420,12 @@
       <updated>1514312321944</updated>
       <workItem from="1514312327649" duration="8323000" />
       <workItem from="1518916293358" duration="7849000" />
-      <workItem from="1518928255623" duration="2106000" />
+      <workItem from="1518928255623" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18278000" />
+    <option name="totallyTimeSpent" value="18330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="222" y="23" width="1421" height="985" extended-state="0" />
@@ -641,7 +639,7 @@
     <entry file="file://$PROJECT_DIR$/sample-phaser-project/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>

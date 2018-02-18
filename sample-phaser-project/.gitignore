@@ -6,4 +6,6 @@ dist/
 .vscode/
 *.log
 /index.html
-build/
+
+# remove build from .gitignore do it can be hosted on gh-pages.
+#build/
