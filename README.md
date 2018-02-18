@@ -14,7 +14,7 @@ Current state of gamebody controls:
 
 <img src="./gameboy-controls-2-18-18.jpg"/>
 
-![](./gameboy-controls-2-18-18.jpg | width=100)
+![](./gameboy-controls-2-18-18.jpg | width=75)
 
 
 Currently, I only have the "up arrow" button on the page. I recently had a breakthrough with both the way I was 
