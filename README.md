@@ -192,5 +192,5 @@ https://github.com/cstuncsik/phaser-es6-demo
 
 ## Contributors
 
-https://github.com/jimtheman
-https://github.com/psyrotix
+- https://github.com/jimtheman
+- https://github.com/psyrotix
