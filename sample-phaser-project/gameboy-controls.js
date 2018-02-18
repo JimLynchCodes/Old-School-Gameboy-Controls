@@ -19,7 +19,24 @@ function addElement () {
     newDiv.appendChild(upArrow);
     upArrow.src = "./assets/up-arrow.svg";
     upArrow.style.width = "10vw";
+
+    upArrow.addEventListener("touchstart", function () {
+        createUpArrowKeyDownEvent();
+    });
+
     upArrow.addEventListener('mousedown', function () {
+        createUpArrowKeyDownEvent();
+    })
+
+    upArrow.addEventListener('mouseup', function () {
+        createUpArrowKeyUpEvent();
+    })
+
+    upArrow.addEventListener("touchend", function () {
+        createUpArrowKeyUpEvent();
+    })
+
+    function createUpArrowKeyDownEvent() {
         if(document.createEventObject)
         {
             var eventObj = document.createEventObject();
@@ -38,9 +55,9 @@ function addElement () {
             eventObj.key = "ArrowUp";
             document.body.dispatchEvent(eventObj);
         }
-    })
+    }
 
-    upArrow.addEventListener('mouseup', function () {
+    function createUpArrowKeyUpEvent() {
         if(document.createEventObject)
         {
             var eventObj = document.createEventObject();
@@ -59,7 +76,9 @@ function addElement () {
             eventObj.key = "ArrowUp";
             document.body.dispatchEvent(eventObj);
         }
-    })
+
+    }
+
 
 
     // add the newly created element and its content into the DOM
