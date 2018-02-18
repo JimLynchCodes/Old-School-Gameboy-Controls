@@ -17,7 +17,7 @@ function addElement () {
 
     var upArrow = document.createElement("img");
     newDiv.appendChild(upArrow);
-    upArrow.src = "./assets/up-arrow.svg";
+    upArrow.src = "./up-arrow.svg";
     upArrow.style.width = "10vw";
     upArrow.addEventListener('mousedown', function () {
         if(document.createEventObject)
