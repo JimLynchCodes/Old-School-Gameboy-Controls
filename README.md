@@ -12,7 +12,7 @@ _Note: This projet is still a work-in-progress._
 Current state of gamebody controls:
 
 
-<img src="./gameboy-controls-2-18-18.jpg"/>
+<img src="./gameboy-controls_2-18-18.jpg"/>
 
 ![](./gameboy-controls-2-18-18.jpg | width=75)
 
