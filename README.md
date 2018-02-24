@@ -3,7 +3,7 @@
 
 # Old School Gameboy Controls 
 
-_A leightweight, nonintrusive Javascript library for adding 90's era gamebody-esque input controls to HTML5 games.   
+_A leightweight, Javascript library for adding 90's era gamebody-esque input controls to HTML5Backend games_
 
 
 _Note: This projet is still a work-in-progress._
@@ -11,9 +11,7 @@ _Note: This projet is still a work-in-progress._
 
 Current state of gamebody controls:
 
-
 <img src="./gameboy-controls_2-18-18.jpg"/>
-
 
 Currently, I only have the "up arrow" button on the page. I recently had a breakthrough with both the way I was 
 dispatching Keyboard Events and listening tfor mouse / touch events, and I've created a simple button that I think
@@ -36,8 +34,25 @@ the normal phaser keydown and keyup events!
 
 
 
-#### How To Use Gameboy Controls in Another Project
+### Mappings
+<table>
+   
+   <tr>
+    Gameboy button   |     qwerty mapping
+    Up arrow              up arrow
+    Down arrow             down arrow
+    Right arrow             right arrow
+    Left arrow              left arrow
+    A                       A
+    B                        S
+    Start                     p
+    Select                   Escape
+    </tr>
+    </table>
 
+
+#### How To Use Gameboy Controls in Another Project
+Jim
 I'm imagining a tax where you can just wrap your main root game tag named "content" or "app" or something and wrap that in
 another div marked as gameboy-controls. Then you just add the gameboy-controls (or possibly it happens behind the scenes).
 
