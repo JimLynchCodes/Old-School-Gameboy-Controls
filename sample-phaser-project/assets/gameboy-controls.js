@@ -11,14 +11,11 @@ function addElement () {
     newDiv  = document.createElement("div");
     newDiv.id = "old-school-gameboy-controls";
 
-    var newContent = document.createTextNode("Up Arrow Btn...");
-
-    newDiv.appendChild(newContent);
-
     var upArrow = document.createElement("img");
     newDiv.appendChild(upArrow);
     upArrow.src = "./assets/images/up-arrow.svg";
     upArrow.style.width = "10vw";
+    upArrow.classList.add('up-arrow-btn');
 
     var downArrow = document.createElement("img");
     newDiv.appendChild(downArrow);
@@ -43,21 +40,25 @@ function addElement () {
     newDiv.appendChild(aBtn);
     aBtn.src = "./assets/images/a-btn.svg";
     aBtn.style.width = "10vw";
+    aBtn.classList.add('a-btn');
 
     var bBtn = document.createElement("img");
     newDiv.appendChild(bBtn);
     bBtn.src = "./assets/images/b-btn.svg";
     bBtn.style.width = "10vw";
+    bBtn.classList.add('b-btn');
 
     var startBtn = document.createElement("img");
     newDiv.appendChild(startBtn);
     startBtn.src = "./assets/images/start-btn.svg";
     startBtn.style.width = "10vw";
+    startBtn.classList.add('start-btn');
 
     var selectBtn = document.createElement("img");
     newDiv.appendChild(selectBtn);
     selectBtn.src = "./assets/images/select-btn.svg";
     selectBtn.style.width = "10vw";
+    selectBtn.classList.add('select-btn');
 
 
 
@@ -201,6 +202,8 @@ function addElement () {
     // add the newly created element and its content into the DOM
     var currentDiv = document.getElementById("game-controls");
 
+
+    currentDiv.appendChild(newDiv);
     console.log('current div ' + currentDiv)
-    document.body.insertBefore(newDiv, currentDiv);
+    // document.body.insertBefore(newDiv, currentDiv);
 }

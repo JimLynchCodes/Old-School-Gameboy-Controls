@@ -1,0 +1,83 @@
+
+.up-arrow-btn {
+    position: absolute;
+    left: 15vw;
+    bottom: 27vh;
+}
+
+
+.right-arrow-btn {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    left: 25vw;
+    bottom: 21vh;
+}
+
+
+.left-arrow-btn {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: absolute;
+    left: 6vw;
+    bottom: 21vh;
+}
+
+
+.down-arrow-btn {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 15vw;
+    bottom: 15vh;
+}
+
+.game {
+    postion: absolute;
+    left: 2vw;
+}
+
+.gameboy-controls {
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.gameboy-screen {
+    width: 50vw;
+    hegight: 40vh;
+}
+
+
+
+.a-btn {
+    position: absolute;
+    right: 14vw;
+    bottom: 23vh;
+}
+
+.b-btn {
+    position: absolute;
+    right: 26vw;
+    bottom: 18vh;
+}
+
+.start-btn {
+    position: absolute;
+    right: 38vw;
+    bottom: 4vh;
+}
+.select-btn {
+    position: absolute;
+    left: 38vw;
+    bottom: 4vh;
+}
