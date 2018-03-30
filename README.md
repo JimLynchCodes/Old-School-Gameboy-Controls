@@ -11,7 +11,7 @@ _Note: This projet is still a work-in-progress._
 
 Current state of gamebody controls:
 
-<img src="./gameboy-controls_2-18-18.jpg"/>
+<img src="./gameboy-controls_3-30-18.jpg"/>
 
 Currently, I only have the "up arrow" button on the page. I recently had a breakthrough with both the way I was 
 dispatching Keyboard Events and listening tfor mouse / touch events, and I've created a simple button that I think
