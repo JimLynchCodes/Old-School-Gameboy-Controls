@@ -3,35 +3,30 @@
 
 # Old School Gameboy Controls 
 
-_A leightweight, Javascript library for adding 90's era gamebody-esque input controls to HTML5Backend games_
+_A leightweight Javascript library for adding 90's era gameboy-esque input controls to HTML5 games!_
 
 
 _Note: This projet is still a work-in-progress._
 
 
-Current state of gamebody controls:
+## Current State of Gamebody controls
 
-<img src="./gameboy-controls_3-30-18.jpg"/>
+<img src="./gameboy-controls_3-30-18.png"/>
 
-Currently, I only have the "up arrow" button on the page. I recently had a breakthrough with both the way I was 
-dispatching Keyboard Events and listening tfor mouse / touch events, and I've created a simple button that I think
-works on desktop browsers, android browsers, and ios browsers!
+Currently, I have the _up, left, right, and down arrow_ buttons on the page. I also  have the A, B, start, and select buttons in. After having a had a breakthrough with the way I was dispatching Keyboard Events and listening for mouse / touch events, I'm now moving on to polishing off the controls, writing a detailed guide for integrating into your HTML5 game, and creating a sample game with the controls myself!
 
 
+## Motivation For Gameboy Controls
 This is a normal div and lives outside of the phaser game.
 The whole point of this is so that the gameboy controls can have a window (where the gameboy screen would be) that the user
 can just drop their main div in which phaser gets rendered and code as usual. This way the creator can simply build
 the game listening for arrow key press events and easily have a way to let the user trigger those keypress events on 
 mobile devices by simply pressing the gameboy buttons.
 
-
+## Live Demo
 Checkout the live demo here: https://jimtheman.github.io/Old-School-Gameboy-Controls/
 
-
-If the spinning mushroom moves when you click down on the arrow button then you know that it works! Your device is registering
-the normal phaser keydown and keyup events!
-
-
+If the spinning mushroom moves when you click down on the arrow button then you know that it works! Your device is registering the normal phaser keydown and keyup events!
 
 
 ### Mappings
@@ -48,9 +43,8 @@ the normal phaser keydown and keyup events!
 </table>
 
 
-#### How To Use Gameboy Controls in Another Project
-Jim
-I'm imagining a tax where you can just wrap your main root game tag named "content" or "app" or something and wrap that in
+#### How To Use Gameboy Controls in Another Project (WIP)
+I'm imagining a syntax where you can just wrap your main root game tag named "content" or "app" or something and wrap that in
 another div marked as gameboy-controls. Then you just add the gameboy-controls (or possibly it happens behind the scenes).
 
 ```
@@ -97,13 +91,11 @@ Then in your phaser code listen for the arrow keys as usual.
 The images are svg and should scale based on the viewport width to any portrait-layout sreen without degrading quality. 
 
 
-Feel free free to open issues if you have any questions or suggestions!
-
-
 $ Contributing To Old-School Gameboy Controls
 
+Feel free free to open issues if you have any questions or suggestions!
 
- The sample project was scaffolded with Phaser + ES6 + Webpack.
+The sample project was scaffolded with Phaser + ES6 + Webpack.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -116,19 +108,19 @@ $ Contributing To Old-School Gameboy Controls
 - WebFont Loader
 
 
-# Setup
+## Setup
 
-## 1. Install node.js and npm:
+### 1. Install node.js and npm:
 
 https://nodejs.org/en/
 
 
-## 2. Navigate into the sample-phaser project folder
+### 2. Navigate into the sample-phaser project folder
 
 `cd sample-phaser-project`
 
 
-## 3. Install dependencies (optionally you can install [yarn](https://yarnpkg.com/)):
+### 3. Install dependencies (optionally you can install [yarn](https://yarnpkg.com/)):
 
 Run:
 
@@ -137,7 +129,7 @@ Run:
 or if you chose yarn, just run ```yarn```
 
 
-## 4. Run the development server:
+### 4. Run the development server:
 
 Run:
 
@@ -148,7 +140,7 @@ This will run a server so you can run the game in a browser. It will also start 
 To run the game, open your browser and enter http://localhost:3000 into the address bar.
 
 
-## Build for deployment:
+### Build for deployment:
 
 Run:
 
@@ -160,7 +152,7 @@ _Current build is sort of hackish. You may need to go into build/index.html and 
 
 This will optimize and minimize the compiled bundle.
 
-## Deploy for cordova:
+### Deploy for cordova:
 Make sure to uncomment the cordova.js file in the src/index.html and to update config.xml with your informations. (name/description...)
 
 More informations about the cordova configuration:
