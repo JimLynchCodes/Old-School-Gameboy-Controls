@@ -36,19 +36,16 @@ the normal phaser keydown and keyup events!
 
 ### Mappings
 <table>
-   
-   <tr>
-    Gameboy button   |     qwerty mapping
-    Up arrow              up arrow
-    Down arrow             down arrow
-    Right arrow             right arrow
-    Left arrow              left arrow
-    A                       A
-    B                        S
-    Start                     p
-    Select                   Escape
-    </tr>
-    </table>
+    <tr><th>Gameboy button</th><th>QWERTY mapping</th></tr>
+    <tr><td>Up arrow</td><td>up arrow</td></tr>
+    <tr><td>Down arrow</td><td>down arrow</td></tr>
+    <tr><td>Left arrow</td><td>right arrow</td></tr>
+    <tr><td>Right arrow</td><td>left arrow</td></tr>
+    <tr><td>A</td><td>a</td></tr>
+    <tr><td>B</td><td>s</td></tr>
+    <tr><td>Start</td><td>p</td></tr>
+    <tr><td>Select</td><td>Escape</td></tr>
+</table>
 
 
 #### How To Use Gameboy Controls in Another Project
