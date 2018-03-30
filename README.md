@@ -11,7 +11,7 @@ _Note: This projet is still a work-in-progress._
 
 ## Current State of Gamebody controls
 
-<img src="./gameboy-controls_3-30-18.png"/>
+<img src="./gameboy-controls_3-31-18.png"/>
 
 Currently, I have the _up, left, right, and down arrow_ buttons on the page. I also  have the A, B, start, and select buttons in. After having a had a breakthrough with the way I was dispatching Keyboard Events and listening for mouse / touch events, I'm now moving on to polishing off the controls, writing a detailed guide for integrating into your HTML5 game, and creating a sample game with the controls myself!
 
