@@ -150,6 +150,12 @@ Run:
 _Current build is sort of hackish. You may need to go into build/index.html and change game-controls path to "./gameboy-controls.js"_
 
 
+## Deploy to gh-pages
+
+From the root fo the project run this:
+
+`git subtree push --prefix sample-phaser-project/build/ origin gh-pages`
+
 This will optimize and minimize the compiled bundle.
 
 ### Deploy for cordova:
