@@ -3,6 +3,8 @@
 
 # Old School Gameboy Controls 
 
+[![Build Status](https://travis-ci.org/JimTheMan/Old-School-Gameboy-Controls.svg?branch=master)](https://travis-ci.org/JimTheMan/Old-School-Gameboy-Controls)
+
 _A leightweight Javascript library for adding 90's era gameboy-esque input controls to HTML5 games!_
 
 

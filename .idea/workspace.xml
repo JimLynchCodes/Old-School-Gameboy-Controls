@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7703154-59c6-4577-8f43-effeb6236c60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/sample-phaser-project/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/build/index.html" afterPath="$PROJECT_DIR$/sample-phaser-project/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/build/js/bundle.js" afterPath="$PROJECT_DIR$/sample-phaser-project/build/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/build/js/vendor.bundle.js" afterPath="$PROJECT_DIR$/sample-phaser-project/build/js/vendor.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/src/main.js" afterPath="$PROJECT_DIR$/sample-phaser-project/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/src/states/Boot.js" afterPath="$PROJECT_DIR$/sample-phaser-project/src/states/Boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample-phaser-project/src/states/Game.js" afterPath="$PROJECT_DIR$/sample-phaser-project/src/states/Game.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,12 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1241">
-                <caret line="114" column="22" lean-forward="false" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="157" lean-forward="false" selection-start-line="5" selection-start-column="157" selection-end-line="5" selection-end-column="157" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -79,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample-phaser-project/src/states/Game.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="722">
@@ -133,7 +120,11 @@
       <find>consol</find>
       <find>div1</find>
       <find>el</find>
+      <find>&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,10 +152,10 @@
         <option value="$PROJECT_DIR$/sample-phaser-project/gameboy-controls.js" />
         <option value="$PROJECT_DIR$/sample-phaser-project/build/index.html" />
         <option value="$PROJECT_DIR$/sample-phaser-project/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sample-phaser-project/src/states/Boot.js" />
         <option value="$PROJECT_DIR$/sample-phaser-project/src/main.js" />
         <option value="$PROJECT_DIR$/sample-phaser-project/src/states/Game.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -407,12 +398,12 @@
       <workItem from="1518916293358" duration="7849000" />
       <workItem from="1518928255623" duration="7794000" />
       <workItem from="1519522340514" duration="27000" />
-      <workItem from="1522417621176" duration="806000" />
+      <workItem from="1522417621176" duration="1096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24799000" />
+    <option name="totallyTimeSpent" value="25089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1247" height="984" extended-state="0" />
@@ -599,17 +590,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1241">
-            <caret line="114" column="22" lean-forward="false" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample-phaser-project/src/states/Boot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -635,6 +615,17 @@
         <state relative-caret-position="722">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="157" lean-forward="false" selection-start-line="5" selection-start-column="157" selection-end-line="5" selection-end-column="157" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
